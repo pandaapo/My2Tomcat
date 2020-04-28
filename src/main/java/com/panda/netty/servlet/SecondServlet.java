@@ -1,8 +1,8 @@
-package com.panda.nio.servlet;
+package com.panda.netty.servlet;
 
-import com.panda.nio.http.MyRequest2;
-import com.panda.nio.http.MyResponse2;
-import com.panda.nio.http.MyServlet2;
+import com.panda.netty.http.MyRequest2;
+import com.panda.netty.http.MyResponse2;
+import com.panda.netty.http.MyServlet2;
 
 public class SecondServlet extends MyServlet2 {
     @Override

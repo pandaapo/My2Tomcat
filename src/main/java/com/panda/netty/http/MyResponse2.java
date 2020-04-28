@@ -1,10 +1,8 @@
-package com.panda.nio.http;
+package com.panda.netty.http;
 
 import io.netty.buffer.Unpooled;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.handler.codec.http.*;
-
-import java.io.UnsupportedEncodingException;
 
 public class MyResponse2 {
 

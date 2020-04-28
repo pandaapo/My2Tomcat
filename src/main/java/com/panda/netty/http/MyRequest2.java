@@ -1,4 +1,4 @@
-package com.panda.nio.http;
+package com.panda.netty.http;
 
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.handler.codec.http.HttpRequest;

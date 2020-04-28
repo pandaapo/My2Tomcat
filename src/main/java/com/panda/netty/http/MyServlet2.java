@@ -1,4 +1,4 @@
-package com.panda.nio.http;
+package com.panda.netty.http;
 
 public abstract class MyServlet2 {
     public void service(MyRequest2 request, MyResponse2 response) throws Exception {

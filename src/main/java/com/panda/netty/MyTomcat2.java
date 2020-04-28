@@ -1,8 +1,8 @@
-package com.panda.nio;
+package com.panda.netty;
 
-import com.panda.nio.http.MyRequest2;
-import com.panda.nio.http.MyResponse2;
-import com.panda.nio.http.MyServlet2;
+import com.panda.netty.http.MyRequest2;
+import com.panda.netty.http.MyResponse2;
+import com.panda.netty.http.MyServlet2;
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.*;
 import io.netty.channel.nio.NioEventLoopGroup;
@@ -11,10 +11,8 @@ import io.netty.channel.socket.nio.NioServerSocketChannel;
 import io.netty.handler.codec.http.HttpRequest;
 import io.netty.handler.codec.http.HttpRequestDecoder;
 import io.netty.handler.codec.http.HttpResponseEncoder;
-import io.netty.util.concurrent.EventExecutorGroup;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Properties;
